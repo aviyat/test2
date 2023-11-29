@@ -4,7 +4,8 @@ const init = () => {
 }
 
 const doApi = async() => {
-  let myurl = "http://localhost:3001/users/myInfo";
+  // let myurl = "http://localhost:3001/users/myInfo";
+  let myurl = "https://test-aviya.onrender.com/users/myInfo";
   let resp = await axios({
     url:myurl,
     method:"GET",
